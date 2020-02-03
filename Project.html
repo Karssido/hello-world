@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <!-- Settings of the HTML document -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="Project.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="items">
+      <div class="logo">
+        <h1 align="left" style="font-size:5vw">{#CODE<i class="fa fa-code"></i>FUTURE#}</i></h1>
+      </div>
+        <ul>
+          <div class="dropdown">
+            <button class="dropbtn"><li><i class = "fa fa-bars menu-icon">HOME</i></li></button>
+            <div class="dropdown-content">
+              <a href="#lessons" align="center">Lessons</a>
+              <a href="#footer" align="center">Terms and Privacy Policy</a>
+              <a href="signup.html" align="center">Sign-up</a>
+              <a href="Sign In.html" align="center">Sign-in</a>
+              <a href="contact.html" align="center">Contact Us</a>
+            </div>
+          </div>
+            <button style="font-size:1vw"><li><a href="#lessons"> <i class="fa fa-book" aria-hidden="true"></i> LESSONS</a></li></button>
+            <button style="font-size:1vw" onclick="alert('Proceed?')"><li><a href="Sign in.html"><i class="fa fa-user" aria-hidden="true"> PROFILE</i></a></li></button>
+            <button style="font-size:1vw" onclick="myFunction()"><li><a href="Sign in.html"><i class="fa fa-sign-in" aria-hidden="true"> SIGN IN</i></a></li></button>
+            <script>
+              function myFunction() {
+                var txt;
+                if (confirm("Really!")) {
+                  txt = "You pressed OK!";
+                } else {
+                  txt = "You pressed Cancel!";
+                }
+                document.getElementById("demo").innerHTML = txt;
+              }
+              </script>
+              
+            <button style="font-size:1vw" onclick="alert('New To Coduture?')"><li><a href="signup.html">SIGN UP</a></li></button>
+        </ul>
+    </div>
+    <!-- Header -->
+    <div class="header">
+        <h1 align="left" style="font-size:6vw">{ #CODE # TO # FUTURE# }</h1>
+        <p align="center" style="font-size:3vw">   -/<b>BEST</b> CODING <b>LESSONS./- </b></p>
+        <p align="center" style="font-size:3vw">-/LESSONS BY <b>TOP CODERS</b> OF THE <b>WORLD./-</b></p>
+        <p align="center" style="font-size:3vw">-/<b>BEST</b> SITE IN THE <b>WORLD</b> FOR LESSONS ON THE <b>MOST IN DEMAND WEB DEVELOPMENT LANGUAGES</b>/-</p>
+    </div>
+    <div class="main">
+      <h2 align="left" id="lessons">LESSONS <i class="fa fa-book" aria-hidden="true"></i></h2>
+      <ul>
+        <li><a href="Pro1.html"><img src="C:\Users\hp\Desktop\c.png" style="width:100%;"><br><h3 style="font-size:2vw">HTML</a></h3></li>
+        <li><a href="Pro2.html"><img src="C:\Users\hp\Desktop\d.png" style="width:100%;"><br><h3 style="font-size:2vw">CSS</a></h3></li>
+        <li><a href="Pro3.html"><img src="C:\Users\hp\Desktop\e.png" style="width:100%;"><br><h3 style="font-size:2vw">RUBY</a></h3></li>
+        <li><a href="Pro4.html"><img src="C:\Users\hp\Desktop\f.png" style="width:100%;"><br><h3 style="font-size:2vw">PHP</a></h3></li>
+      </ul>
+    </div>
+    </div>
+    <div class="footer">
+      <ul id="footer">
+        <li><a href="Pro5.html"><button onclick="alert('Confidential,But not for you!!')">ABOUT US</button></a></li>
+        <li><a href="contact.html"><button onclick="alert('To Contact Us , Click OK Below')">CONTACT US</button></a></li>
+        <li><a href="terms.html"><button onclick="alert('Too Long Content!!')" >TERMS</button></a></li>
+        <li><a href="policy.html"><button onclick="alert('Long Content But Not As That Of Terms!!')">PRIVACY POLICY</button></a></li>
+      </ul>
+    </div>
+   </body>
+</html>
+        
